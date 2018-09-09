@@ -1,5 +1,5 @@
 {
-    "name": "crate/crate-pdo",
+    "name": "hanjoyo/crate-pdo",
     "description": "A PDO adapter for interacting with the Crate.io DBMS",
     "license": "Apache-2.0",
     "homepage": "https://github.com/crate/crate-pdo",
