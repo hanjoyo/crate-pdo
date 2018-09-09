@@ -2,8 +2,21 @@
     "name": "hanjoyo/crate-pdo",
     "description": "A PDO adapter for interacting with the Crate.io DBMS",
     "license": "Apache-2.0",
-    "homepage": "https://github.com/crate/crate-pdo",
+    "homepage": "https://github.com/hanjoyo/crate-pdo.git",
     "keywords": ["database", "pdo", "crate"],
+    "repositories": [
+    {
+        "type": "package",
+        "package": {
+            "name": "hanjoyo-crate-pdo", //give package name to anything, must be unique
+            "version": "1.0",
+            "source": {
+                "url": "https://github.com/hanjoyo/crate-pdo.git", //git url
+                "type": "git",
+                "reference": "internal_use" //git branch-name
+            }
+        }
+    }],
     "require": {
         "php":     "^7.2",
         "ext-pdo": "*",
